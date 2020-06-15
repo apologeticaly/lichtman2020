@@ -1,0 +1,358 @@
+/* Main CSS */
+
+html {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1rem;
+    font-family: 'PT Serif Caption', serif;
+    color: #222222;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+#paragraph {
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+
+#description {
+    line-height: 1.75rem;
+    font-family: 'Roboto Mono';
+    color: #222222;
+}
+
+
+.chances-description {
+    margin-top: 1.5rem;
+}
+
+.method-description {
+    margin-top: 1rem;
+}
+
+h1, #h1 {
+    font-size: 2.5rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #222222;
+    margin: 0 0 0.5rem 0;
+}
+
+#h1:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    text-decoration-color: #707070!important;
+    cursor: pointer;
+}
+
+h3, #h3 {
+    font-size: 1.5rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #222222;
+    margin: 0.5 0 0.75rem 0;
+}
+
+#h3 :hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    text-decoration-color: #707070;
+    cursor: pointer;
+}
+
+h4, #h4 {
+    font-size: 1.25rem;
+    font-family: 'Hind Vadodara', sans-serif;
+    color: #707070;
+    margin: 0 0 2rem 0;
+}
+
+#h4 :hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    text-decoration-color: #707070;
+}
+
+subtitle {
+    color: #707070;
+}
+
+#micro {
+    margin: 0 0 0.25rem 0;
+    font-family: 'Roboto Mono', monospace;
+    color: #707070;
+}
+
+#micromicro{
+    margin: 0 0 0.25rem 0;
+    font-size: 10.5px;
+    font-family: 'Roboto Mono', monospace;
+    color: #707070;
+}
+
+#byline {
+    margin: 0 0 0.5rem 0 ;
+    font-size: 1rem;
+    font-family: 'PT Mono', monospace;
+    color: #222222;
+}
+
+#nav-link {
+    padding: 0.25rem 1.25rem;
+}
+
+.nav-link {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+a {
+    color: #222222;
+}
+
+#nav-link :hover {
+    text-decoration: none;
+}
+
+#icon {
+    margin: 0 0 0 1.5rem;
+    height: 1.5rem;
+}
+
+#icon:hover {
+    opacity: 0.5;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+a #nav-link {
+    color: #222222;
+}
+
+a #nav-link .is-active {
+    color: #fff;
+}
+.is-active {
+    color: #FFFFFF!important;
+    background-color: #222;
+}
+
+.writings-headline > #byline {
+    margin: 0 0 1rem 0;
+} 
+
+.writings {
+    margin: 1rem 0 0 0;
+}
+
+#writings-img {
+    margin: 0 0 2rem 0;
+}
+
+#writings-img > #micro {
+    margin: 0.5rem 0 0 0 ;
+}
+
+.headline > #micro {
+    margin: 1rem 0 0 0;
+}
+
+.logo {
+    height: 1.25rem;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #222222;
+    text-align: center;
+}
+
+#copyright {
+    font-size: 1.25rem;
+    font-family: 'Hind Vadodara', sans-serif;
+    color: #707070;
+    margin: 0 0 0 0;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.footer-logo {
+    height: 1.25rem;
+    margin: 1.5rem 0 0 0;
+}
+
+#label {
+    border-bottom: 2px solid #DEDEDE;
+    margin: 0 0 0rem 0;
+}
+
+.row-update > #micromicro {
+    margin: 0;
+}
+
+.mconstantino {
+    color: rgb(182, 182, 182)!important;
+
+}
+
+.button {
+    background-color: #ffffff;
+    border: 4px solid #222;
+}
+
+.button:hover {
+    background-color: #222;
+    border: 4px solid #FFF;
+}
+
+.button > p {
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.button > p:hover {
+    color: #FFF;
+    text-decoration: underline #222!important;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+}
+
+.description {
+    margin-top: 1rem;
+}
+
+#icon-link {
+    color: #222222!important;
+}
+
+#icon-link:hover {
+    color: #707070!important;
+    text-decoration: none!important;
+}
+
+#reference {
+    color: #222!important;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+#reference:hover {
+    color: #707070!important;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* On mouse hover, lighten state color */
+path:hover {
+	fill-opacity: 1;
+}
+
+/* Style for Custom Tooltip */
+.tooltip {        
+	opacity: 0.99 !important;
+	text-align: center;                     
+	line-height: 2.25rem;
+	border-radius: 1px;
+	border-width: 1.5px !important;
+	border-color: #222 !important;
+	font-size: 1.25rem;
+	font-family: 'Roboto Mono', monospace;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;   
+}
+
+#state-tooltip {         
+	font-size: 1.25rem;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	background-color: #222222;
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;   
+    border-bottom: 1px solid #707070;
+    padding: 0 0 0 0;	
+}
+
+#state-tooltip-bottom-d {         
+	font-size: 1.25rem;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	font-weight: 600;
+	background-color: #3981F5;
+	font-style: normal;
+	text-align: center;   
+    padding: 0 0 0 0;	
+}
+
+#state-tooltip-bottom-r {         
+	font-size: 1.25rem;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	font-weight: 600;
+	background-color: #F53939;
+	font-style: normal;
+	text-align: center;   
+    padding: 0 0 0 0;	
+}
+
+        
+/* Legend Font Style */
+        
+/* Legend Position Style */
+.legend {
+	position:absolute;
+	left:800px;
+	top:350px;
+}
+
+svg {
+    align-self: center;
+    font: 12px sans-serif;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    border-bottom: 1px solid #222;
+    padding: 0.5rem 0rem;
+}
+
+#chart {
+	font-family: 'Helvetica Neue', Helvetica;
+	font-weight: 300;
+	padding: 20px;
+}
+
+.table {
+	margin: 0.75em 0 0 0;
+}
+
+.table th{
+	padding: 0.5em;
+}
+
+.table td{
+	padding: 0.5em;
+}
+
+.map {
+	width: 100px
+}

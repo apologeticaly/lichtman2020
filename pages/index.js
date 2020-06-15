@@ -1,209 +1,82 @@
-import Head from 'next/head'
+import React from 'react';
+import Navigation from '../components/navigation.js';
+import Newsletter from '../components/newsletter.js';
+import MiniLichtman from '../components/minilichtman.js';
+import Footer from '../components/footer.js';
+import Forecast from '../components/forecast.js';
+import Head from 'next/head';
+import Link from 'next/link';
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+export default function Index() {
+    return (
+        <div>
+            <Head>
+                <title>Lichtman2020 | Home</title>
+                <meta name="title" content="Lichtman2020 | Home"  />
+                <meta name="description" content="Using weighted polling averages and the book ’Keys to the White House’, we've created probabilistic election forecasts for the 2020 US Presidential Election."  data-react-helmet="true" /> 
 
-      <main>
-        <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+                {/* <!-- Open Graph / Facebook --> */}
+                <meta property="og:type" content="website" data-react-helmet="true" />
+                <meta property="og:url" content="https://www.lichtman2020.com/" data-react-helmet="true" />
+                <meta property="og:title" content="Lichtman2020 | Election forecasting" data-react-helmet="true" />
+                <meta property="og:description" content="Using weighted polling averages, and the book ’Keys to the White House’ we've created probabilistic election forecasts for the 2020 US Presidential Election."  data-react-helmet="true" />
+                <meta property="og:image" content="http://www.lichtman2020.com/meta.png" data-react-helmet="true" />
 
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+                {/* <!-- Twitter --> */}
+                <meta property="twitter:card" content="summary_large_image" data-react-helmet="true" />
+                <meta property="twitter:site" content="@lichtman2020" data-react-helmet="true" />
+                <meta property="twitter:url" content="https://www.lichtman2020.com/" data-react-helmet="true" />
+                <meta property="twitter:title" content="Lichtman2020 | Election forecasting" data-react-helmet="true" />
+                <meta property="twitter:description" content="Using weighted polling averages, and the book ’Keys to the White House’ we've created probabilistic election forecasts for the 2020 US Presidential Election." data-react-helmet="true" />
+                <meta property="twitter:image" content="http://www.lichtman2020.com/meta.png" data-react-helmet="true" />
+                <script data-ad-client="ca-pub-5615429032974385" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162117202-1"></script>
+                <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=PT+Sans+Caption&family=PT+Sans:wght@700&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+            </Head>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+            <div className="container container-small">
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+            <Navigation />
+    <div className="main">
+    <div className="row">
+        <div className="col-sm-5">
+            <div className="headline">
+                <img src="/img/headline.png"></img>
+                <p id="micro">2020 ELECTION</p>
+                <Link href="/writings/the-party-decides"><h1 id="h1">The Party Decides And The Progressives Rethink</h1></Link>
+                <p id="byline">By Staff</p>
+            </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+            <div className="row story">
+                <div className="col">
+                    <p id="micro">2020 ELECTION</p>
+                    <Link href="/writings/all-over-again"><h3 id="h3"><a>How This Race Is Becoming 2016 All Over Again </a></h3></Link>
+                    <p id="byline">By Staff</p>
+                </div>
+                <div className="col">
+                    <img src="/img/story1.png"></img>
+                </div>
+            </div>
+            
         </div>
-      </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
 
-      <style jsx>{`
-        .container {
-          min-height: 100vh;
-          padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
+        <div className="col-sm-7">
+            <div className="chart-main">
+            <Forecast />
 
-        main {
-          padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
-          width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
-        }
-
-        .description {
-          line-height: 1.5;
-          font-size: 1.5rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+            </div>
+            {/* <Chart /> */}
+            <MiniLichtman />
+            <Newsletter /> 
+        </div>
+      </div>
     </div>
-  )
+
+    </div>
+    <div>
+    <Footer />
+    </div>
+    </div>
+    );
 }

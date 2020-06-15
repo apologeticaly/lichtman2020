@@ -1,0 +1,310 @@
+#navbar {
+    padding: 1.25rem 0 1.25rem 0;
+}
+
+img {
+    max-width: 100%;
+  }
+
+
+.main {
+    margin: 2rem 0;
+}
+
+.headline {
+    margin: 0 0 1.5rem;
+}
+
+.story {
+    border-top: 2px solid #DEDEDE;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.chart-main {
+    height: auto;
+}
+
+.story-inner {
+    margin: auto 0 auto 0;
+}
+
+@media (min-width: 768px) {
+    .container-small {
+        width: 700px;
+    }
+    .container-large {
+        width: 970px;
+    } 
+} 
+@media (min-width: 1200px) {
+    .container-small {
+        width: 1000px;
+    }
+    .container-large {
+        width: 1500px;
+    } 
+}
+
+.container-small, .container-large {
+    max-width: 100%;
+}
+
+.writings-headline {
+    margin: 0 0 1.5rem;
+}
+
+.probability {
+    background-color: #EDEDED;
+}
+
+.candidate {
+    height: 3.5rem;
+}
+
+.row-candidate-label {
+    width: 100%;
+    padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-candidate-label-1 {
+    width: 100%;
+    padding: 1rem 0 0 1rem ;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-candidate {
+    width: 100%;
+    height: 3.5rem;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-candidate-2 {
+    width: 100%;
+    padding: 0rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dem-chances {
+    background-color: #3981F5;
+    width: 100%;
+}
+
+.rep-chances {
+    background-color: #F53939;
+    width: 100%;
+}
+
+.dem-chances > h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0.25rem 0.5rem;
+    text-align: right;
+}
+
+.rep-chances > h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0.25rem 0.5rem;
+    text-align: right;
+}
+
+.dem-chances-center {
+    background-color: #3981F5;
+    width: 100%;
+}
+
+.rep-chances-center {
+    background-color: #F53939;
+    width: 100%;
+}
+
+.dem-chances-center > h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+}
+
+.rep-chances-center > h1 {
+    color: #ffffff;
+    margin: 0;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+}
+
+.row-lichtman {
+    width: 100%;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.lichtman {
+    width: 100%;
+    padding: 1rem 1rem;
+}
+
+.lichtman-mini {
+    width: 100%;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.lichtman-p {
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+    line-height: 2rem;
+    margin: 0 0 2rem 0;
+}
+
+.lichtman-title {
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0!important;
+}
+
+.party-logo {
+    width: 2rem;
+    max-height: 2rem;
+}
+
+.row-lichtman-2 {
+    width: 100%;
+    padding: 0rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-update {
+    width: 100%;
+    padding: 0rem 1rem 1rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.dem-lichtman {
+    display: flex;
+    flex-direction: row;
+    background-color: #3981F5;
+    margin: 0rem 1rem 0 0;
+    width: auto;
+}
+
+.rep-lichtman {
+    display: flex;
+    flex-direction: row;
+    background-color: #F53939;
+    width: auto;
+    margin: 0rem 1rem 0 0;
+}
+
+.dem-lichtman > h1 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.rep-lichtman > h1 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.section {
+    margin-bottom: 1.5rem;
+}
+
+
+#navbarNavAltMarkup  > .navbar-nav {
+    align-items: center;
+}
+
+#underlay {
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+    opacity: 0.6;
+}
+
+#overlay{
+    z-index: 1;
+    top: 29%;
+    left: 49%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    font-size: 2.5rem;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.newsletter {
+    padding: 2rem 0;
+    font-family: 'Roboto Mono';
+    background: #EDEDED;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    
+    .newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+
+    .newsletter .content .form-control {
+    height: 3rem;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+
+    .newsletter .content .btn  {
+        min-height: 3rem; 
+        border-radius:0;
+        font-weight: 500;
+        background-color: #ffffff;
+        border: 4px solid #222;
+    }
+    
+    .button:hover {
+        background-color: #222;
+        border: 4px solid #FFF;
+    }
+
+.disclaimer {
+    margin: 0.5rem;
+}
+
+.input-group {
+    pointer-events: none;
+}
+
+.past {
+    width: 100%;
+    border-bottom: 2px solid #DEDEDE;
+    margin: 0 0 0rem 0;
+    }
