@@ -7,7 +7,7 @@ class Pastforecast extends React.Component {
             labels: ['Mar.', '', 'Apr.', '', 'May', '', 'Jun.', '', 'Jul.', '', 'Aug.', '', 'Sept.', ''],
             datasets: [
               {
-                label: 'Demoract',
+                label: 'Democrat',
                 fill: false,
                 lineTension: 0,
                 backgroundColor: 'rgba(75,192,192,0.4)',
