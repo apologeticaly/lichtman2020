@@ -54,7 +54,7 @@ class Pastforecast extends React.Component {
           };
           
               const options = {
-                aspectRatio: 1,
+                aspectRatio: .75,
                 maintainAspectRatio: false,
                 tooltips: {
                   enabled: true,
@@ -94,9 +94,9 @@ class Pastforecast extends React.Component {
                       }],
                       yAxes: [{
                           ticks: {
-                            min: 230,
-                            max: 300,
-                            stepSize: 10,
+                            min: 150,
+                            max: 400,
+                            stepSize: 50,
                             fontFamily: "'Roboto Mono', monospace",
                             fontColor: '#707070',
                           },
