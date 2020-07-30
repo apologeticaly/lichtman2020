@@ -98,8 +98,18 @@ And since come December the voters have only two options, the Party has no regre
                 <div className="row story">
                 <div className="col">
                     <p id="micro">2020 ELECTION</p>
+                    <Link href="/writings/kamala-harris-vp" id="h1"><h3 id="h3"><a>Biden Selects Harris for Vice President </a></h3></Link>
+                    <p id="byline">By Staff</p>
+                </div>
+                <div className="col">
+                    <img src="/img/story.png"></img>
+                </div>
+            </div>
+                <div className="row story">
+                <div className="col">
+                    <p id="micro">2020 ELECTION</p>
                     <Link href="/writings/all-over-again" id="h1"><h3 id="h3"><a>How This Race Is Becoming 2016 All Over Again </a></h3></Link>
-                    <p id="byline">By M. Constantino</p>
+                    <p id="byline">By Staff</p>
                 </div>
                 <div className="col">
                     <img src="/img/story1.png"></img>

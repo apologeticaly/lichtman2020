@@ -25,7 +25,7 @@ class Pastforecast extends React.Component {
                 pointHoverBorderWidth: 2,
                 pointRadius: 1,
                 pointHitRadius: 10,
-                data: [268, 268, 257, 253, 253, 253, 253, 298, 357]
+                data: [268, 268, 257, 253, 253, 253, 253, 298, 357, 357, 360]
               },
               {
                 label: 'Republican',
@@ -46,7 +46,7 @@ class Pastforecast extends React.Component {
                 pointHoverBorderWidth: 2,
                 pointRadius: 1,
                 pointHitRadius: 10,
-                data: [270, 270, 281, 285, 285, 285, 285, 240, 181]
+                data: [270, 270, 281, 285, 285, 285, 285, 240, 181, 181, 178]
               }
           
             ]

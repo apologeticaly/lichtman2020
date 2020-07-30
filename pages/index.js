@@ -41,10 +41,21 @@ export default function Index() {
     <div className="row">
         <div className="col-sm-5">
             <div className="headline">
-                <img src="/img/headline.png"></img>
+                <img src="/img/story.jpg"></img>
                 <p id="micro">2020 ELECTION</p>
-                <Link href="/writings/the-party-decides"><h1 id="h1">The Party Decides And The Progressives Rethink</h1></Link>
+                <Link href="/writings/kamala-harris-vp"><h1 id="h1">Biden Selects Harris for Vice President</h1></Link>
                 <p id="byline">By Staff</p>
+            </div>
+
+            <div className="row story">
+                <div className="col">
+                    <p id="micro">2020 ELECTION</p>
+                    <Link href="/writings/the-party-decides" id="h1"><h3 id="h3"><a>The Party Decides And The Progressives Rethink</a></h3></Link>
+                    <p id="byline">By Staff</p>
+                </div>
+                <div className="col">
+                    <img src="/img/headline.png"></img>
+                </div>
             </div>
 
             <div className="row story">

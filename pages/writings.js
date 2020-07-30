@@ -61,11 +61,11 @@ class Writings extends React.Component {
             <div className="row">
         <div className="col-sm-7">
             <div className="headline">
-                <img src="/img/headline.png"></img>
+                <img src="/img/story.jpg"></img>
                 <p id="micro">2020 ELECTION</p>
-                <Link href="/writings/the-party-decides"><h1 id="h1"><a>The Party Decides And The Progressives Rethink</a></h1></Link>
-                <p id="byline">By M. Constantino</p>
-                <p id="paragraph">When Elizabeth Warren dropped out she noted that at the beginning of her campaign she was told there were two wings of the party, the progressive wing and the moderate wing. Bernie Sanders and Joe Biden were the incumbents of both respectively....</p>
+                <Link href="/writings/kamala-harris-vp"><h1 id="h1"><a>Biden Selects Harris for Vice President</a></h1></Link>
+                <p id="byline">By Staff</p>
+                <p id="paragraph">After months of vetting and meeting with contenders, Biden has settled on Kamala Harris to be his VP.</p>
             </div>
             
         </div>
@@ -73,6 +73,16 @@ class Writings extends React.Component {
 
         <div className="col-sm-5">
             <div className="chart-main">
+            <div className="row story">
+                <div className="col">
+                    <p id="micro">2020 ELECTION</p>
+                    <Link href="/writings/the-party-decides" id="h1"><h3 id="h3"><a>The Party Decides And The Progressives Rethink</a></h3></Link>
+                    <p id="byline">By Staff</p>
+                </div>
+                <div className="col">
+                    <img src="/img/headline.png"></img>
+                </div>
+            </div>
             <div className="row story">
                 <div className="col">
                     <p id="micro">2020 ELECTION</p>
