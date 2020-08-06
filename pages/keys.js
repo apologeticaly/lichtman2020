@@ -66,7 +66,7 @@ export default function Keys() {
             <div className="row probability">
                 <div className="lichtman">
                     <p className = "lichtman-p">
-Developed by Professor Allan Lichtman in 1981, The 13 Keys are statements that favor victory (in the popular vote count) for the incumbent party. When five or fewer statements are false, the incumbent party is predicted to win the popular vote; when six or more are false, the challenging party is predicted to win the popular vote. We have labeled how each key currently favors each party, with true represented by the GOP and false with the DNC logo respectively.</p>
+Developed by Professor Allan Lichtman in 1981, The 13 Keys are statements that favor victory (in the popular vote count) for the incumbent party. When five or fewer statements are false, the incumbent party is predicted to win the popular vote; when six or more are false, the challenging party is predicted to win the popular vote. We have labeled how each key currently favors each party, with true represented by the GOP and false with the DNC logo respectively. The only disagreement we hold with Professor Lichtman is that we believe that data shows Trump is a charismatic candidate. This does not change the fact that with 6 keys going to the democrats, Trump is still set to lose.</p>
                     <p className="lichtman-title">1) Party Mandate: <img className="party-logo" src="./img/dnc.svg"></img></p> <p className="lichtman-p">After the midterm elections, the incumbent party holds more seats in the U.S. House of Representatives than after the previous midterm elections.</p>
                     <p className="lichtman-title">2) Contest: <img className="party-logo" src="./img/gop.svg"></img></p> <p className="lichtman-p"> There is no serious contest for the incumbent party nomination.</p>
                     <p className="lichtman-title">3) Incumbency: <img className="party-logo" src="./img/gop.svg"></img></p> <p className="lichtman-p"> The incumbent party candidate is the sitting president.</p>
@@ -84,7 +84,7 @@ Developed by Professor Allan Lichtman in 1981, The 13 Keys are statements that f
                 </div>
 
                 <div className="row-update">
-                    <p id="micromicro">UPDATED MAR. 23RD 14:17PST</p>
+                    <p id="micromicro">UPDATED AUG. 6TH 10:00PST</p>
                 </div>
             </div>
         </div>

@@ -32,7 +32,7 @@ function MiniLichtman () {
                             </div>
                         </div>
                         <div className="row-update">
-                    <p id="micromicro">UPDATED MAR. 23RD 14:17PST</p>
+                    <p id="micromicro">UPDATED AUG. 6TH 10:00PST</p>
                 </div>
                 </div>
 
