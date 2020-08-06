@@ -59,7 +59,18 @@ class Writings extends React.Component {
         </Navbar>
             <div className="main">
             <div className="row">
-        <div className="col-sm-7">
+
+            <div className="col-sm-7">
+            <div className="headline">
+                <img src="/img/story1.png"></img>
+                <p id="micro">2020 ELECTION</p>
+                <Link href="/writings/all-over-again"><h1 id="h1"><a>How This Race Is Becoming 2016 All Over Again</a></h1></Link>
+                <p id="paragraph">With enthusiasm for the Democratic candidate hovering dangerously low, Trump’s chances for a second term stay high.</p>
+                <p id="byline">By Staff</p>
+            </div>
+            
+        </div>
+        {/* <div className="col-sm-7">
             <div className="headline">
                 <img src="/img/story.jpg"></img>
                 <p id="micro">2020 ELECTION</p>
@@ -68,7 +79,7 @@ class Writings extends React.Component {
                 <p id="paragraph">After months of vetting and meeting with contenders, Biden has settled on Kamala Harris to be his VP.</p>
             </div>
             
-        </div>
+        </div> */}
 
 
         <div className="col-sm-5">
@@ -83,16 +94,16 @@ class Writings extends React.Component {
                     <img src="/img/headline.png"></img>
                 </div>
             </div>
-            <div className="row story">
+            {/* <div className="row story">
                 <div className="col">
                     <p id="micro">2020 ELECTION</p>
-                    <Link href="/writings/all-over-again"><h3 id="h3"><a>How This Race Is Becoming 2016 All Over Again </a></h3></Link>
-                    <p id="byline">By M. Constantino</p>
+                    <Link href="/writings/all-over-again"><h3 id="h3"><a>How This Race Is Becoming 2016 All Over Again</a></h3></Link>
+                    <p id="byline">By Staff</p>
                 </div>
                 <div className="col">
                     <img src="/img/story1.png"></img>
                 </div>
-            </div>
+            </div> */}
 
             </div>
         </div>

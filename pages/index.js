@@ -40,13 +40,18 @@ export default function Index() {
     <div className="main">
     <div className="row">
         <div className="col-sm-5">
-            <div className="headline">
+            {/* <div className="headline">
                 <img src="/img/story.jpg"></img>
                 <p id="micro">2020 ELECTION</p>
                 <Link href="/writings/kamala-harris-vp"><h1 id="h1">Biden Selects Harris for Vice President</h1></Link>
                 <p id="byline">By Staff</p>
+            </div> */}
+            <div className="headline">
+                <img src="/img/story1.png"></img>
+                <p id="micro">2020 ELECTION</p>
+                <Link href="/writings/all-over-again"><h1 id="h1">How This Race Is Becoming 2016 All Over Again</h1></Link>
+                <p id="byline">By Staff</p>
             </div>
-
             <div className="row story">
                 <div className="col">
                     <p id="micro">2020 ELECTION</p>
@@ -57,17 +62,17 @@ export default function Index() {
                     <img src="/img/headline.png"></img>
                 </div>
             </div>
-
+{/* 
             <div className="row story">
                 <div className="col">
                     <p id="micro">2020 ELECTION</p>
-                    <Link href="/writings/all-over-again"><h3 id="h3"><a>How This Race Is Becoming 2016 All Over Again </a></h3></Link>
+                    <Link href="/writings/all-over-again"><h3 id="h3"><a>How This Race Is Becoming 2016 All Over Again</a></h3></Link>
                     <p id="byline">By Staff</p>
                 </div>
                 <div className="col">
                     <img src="/img/story1.png"></img>
                 </div>
-            </div>
+            </div> */}
             
         </div>
 

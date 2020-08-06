@@ -89,7 +89,7 @@ Unless Biden’s campaign is able to pivot to one of broad policy goals and unor
         <div className="col-sm-5">
         <div id="label">
                 <Forecast />
-                <div className="row story">
+                {/* <div className="row story">
                 <div className="col">
                     <p id="micro">2020 ELECTION</p>
                     <Link href="/writings/kamala-harris-vp" id="h1"><h3 id="h3"><a>Biden Selects Harris for Vice President </a></h3></Link>
@@ -98,7 +98,7 @@ Unless Biden’s campaign is able to pivot to one of broad policy goals and unor
                 <div className="col">
                     <img src="/img/story.png"></img>
                 </div>
-            </div>
+            </div> */}
                 <div className="row story">
                 <div className="col">
                     <p id="micro">2020 ELECTION</p>
