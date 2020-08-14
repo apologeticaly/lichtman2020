@@ -34,7 +34,7 @@ const Forecast = () => {
                     <div className="row-candidate-2">
                         <img className="candidate" src="../biden.png"></img>
                         <div className="dem-chances">
-                            <h1 id="forecast-h1">360</h1>
+                            <h1 id="forecast-h1">279</h1>
                         </div>
                     </div>
 
@@ -45,12 +45,12 @@ const Forecast = () => {
                     <div className="row-candidate-2">
                         <img className="candidate" src="../trump.png"></img>
                         <div className="rep-chances">
-                            <h1 id="forecast-h1">178</h1>      
+                            <h1 id="forecast-h1">259</h1>      
                         </div>
                     </div>
 
                     <div className="row-update">
-                        <p id="micromicro">UPDATED JUL. 23TH 23:30PST</p>
+                        <p id="micromicro">UPDATED AUG. 14TH 08:40PST</p>
                     </div>
                 </div>
 
